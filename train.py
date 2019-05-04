@@ -51,7 +51,7 @@ parser.add_argument('--learning_rate', type=float, dest='learn_rate',
                     default = 0.003, help='Model learning rate. Default 0.003')
 parser.add_argument('--hidden_units', type=int, dest='hidden_units',
                     default=500,
-                    help='I don\'t know what this does yet...')
+                    help='Number of hidden layers to build into the model. Default 500')
 parser.add_argument('--epochs', type=int, dest = 'epochs', default = 1,
                     help='Number of epochs to use. Default 1')
 parser.add_argument('--gpu', action='store_true', dest = 'tryGPU',
